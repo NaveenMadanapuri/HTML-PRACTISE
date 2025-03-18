@@ -6,9 +6,9 @@
     <title>Hello World</title>
   </head>
   <body>
-    <h1>Hello</h1>
-    <h2>NAVEEN</h2>
-    <h3>Welocome</h3>
+    <h1 style="border: 2px solid black;">Hello</h1>
+    <h2 style="color: blue;">NAVEEN</h2>
+    <h3 style="border: dashed;">Welocome</h3>
     <h4>To</h4>
     <h5>HTML</h5>
     <h6>Practise</h6>
@@ -17,6 +17,10 @@
       quam recusandae nulla aliquid porro quia magnam velit illum aperiam.
     </p>
     <b>Brother</b>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <em>This text is emphasized</em><br>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <p>My favorite color is <del>blue</del> red.</p>
     <i>How are you</i>
     <p><big>Buddy</big></p>
     <p><small>You are too smart</small></p>
@@ -86,16 +90,22 @@
         <br>
         <caption >Cricket IPL 2025</caption><br>
         <table border="1" style="background-color: rgb(222, 241, 9);">
-            <tr>
-                <td>Team position</td>
-                <td>Team Name</td>
-                <td>Matches Won</td>
-                <td>Matches Loos</td>
-                <td>Points</td>
-                <td>Run rate</td>
-            </tr>
+            <p border="1px solid black" style="background-color: crimson;">
+                <thead >Points Table</thead>
+            </p>
+            <thead>
+                <tr>
+                    <th>Team position</th>
+                    <th>Team Name</th>
+                    <th>Matches Won</th>
+                    <th>Matches Loos</th>
+                    <th>Points</th>
+                    <th>Run rate</td>
+                </tr>
+            </thead>
+           
             <tr style="background-color: lightgreen;">
-                <td>1</td>
+                <td>1(Q)</td>
                 <td>RCB</td>
                 <td>12</td>
                 <td>2</td>
@@ -103,7 +113,7 @@
                 <td>2.456</td>
             </tr>
             <tr style="background-color: lightgreen;">
-                <td>2</td>
+                <td>2(Q)</td>
                 <td>KKR</td>
                 <td>11</td>
                 <td>3</td>
@@ -111,7 +121,7 @@
                 <td>1.89</td>
             </tr>
             <tr style="background-color: lightgreen;">
-                <td>3</td>
+                <td>3(Q)</td>
                 <td>MI</td>
                 <td>11</td>
                 <td>3</td>
@@ -119,7 +129,7 @@
                 <td>1.56</td>
             </tr>
             <tr style="background-color: lightgreen;">
-                <td>4</td>
+                <td>4(Q)</td>
                 <td>CSK</td>
                 <td>10</td>
                 <td>4</td>
@@ -175,7 +185,62 @@
                 <td>0.5</td>
             </tr>
         </table>
-
+        <table border="1">
+            <thead>Names of the students</thead>
+            <tr colspan="2">
+                <th>Name of the student</th>
+                <th>Class</th>
+                <th>Student ID</th>
+            </tr>
+            <table border="1" >
+                <tr>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <td></td>
+                    <td>AAku</td>
+                </tr>
+                <tr>
+                    <td>Mahesh</td>
+                    <td>Babu</td>
+                    <td>Akkula</td>
+                </tr>
+                <tr>
+                    <td>Naveen</td>
+                    <td>Kumar</td>
+                    <td>Madanapuri</td>
+                </tr>
+            </table>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+              <td>Cell</td>
+              <td>Nested Table
+                <table>
+                  <tr>
+                    <td>Cell 1</td>
+                  </tr>
+                  <tr>
+                    <td>Cell 2</td>
+                  </tr>
+                  <tr>
+                    <td>Cell 3</td>
+                  </tr>
+                  <tr>
+                    <td>Cell 4</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+    </div>
+    <div>
+        
     </div>
 
   </body>
